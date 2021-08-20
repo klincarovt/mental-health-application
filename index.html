@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Health</title>
+  <link rel="stylesheet" href="style.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="" id="logofront"><img class="imglogo" src="mh.jpg" alt="" height="80px" /></a>
+      </div>
+
+      <div class="collapse navbar-collapse navtopics" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li id="homechange"><a href="" class="aborder4"><strong id="homehome">Home</strong></a></li>
+          <div class="dropdown">
+            <li><button class="dropbtn"><strong id="topicshome">Categories ▼</strong></button></li>
+            <div class="dropdown-content">
+              <a href="#scrooldown1">Topics</a>
+              <a href="#scrooldown2">Learn about Mental Health</a>
+              <a href="#scrooldown3">Get Help</a>
+              <a href="#scrooldown4">Mental Health Issues & Illnesses</a>
+              <a href="#scrooldown5">Premium App</a>
+            </div>
+          </div>
+          <!-- <li><a href="#akademii" class="aborder"><strong>АКАДЕМИИ</strong></a></li> -->
+          <!-- <li><a href="#prostorzanastani" class="aborder2"><strong>ПРОСТОР ЗА НАСТАНИ</strong></a></li>
+          <li><a href="#spaceblog"><strong>ПАРТНЕРСТВА</strong></a></li> -->
+        </ul>
+        </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right signupnav">
+                <li><a href="#akademii" class="aborder"><strong style="color: white;">Sign up and Log in</strong></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right logoutnav">
+                <li style="text-align: center;"><a href="" class="aborder" style="color: white;"><strong>Log out</strong></a></li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="frontimg">
+    <h1 id="whatsOnYourMind"><strong>What's on your mind?<br></strong></h1>
+  </div>
+  <div class="container frontpage">
+    <div id="section2">
+
+      <h1 id="zanas" style="color: white;"><strong>Topics</strong></h1>
+    </div>
+
+    <div class="cards" id="scrooldown1">
+      <div class="cards1">
+      </div>
+    </div>
+
+  <div class="row edu edunastan col-md-12" id="scrooldown2">
+      <div class="firstside col-md-5">
+        <h1><strong style="font-size: 50px; color: black;">What Is Mental Health?</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Mental health is our emotional, psychological, 
+          and social well-being. It is how we think, feel and act. <br>It helps determine how we
+        handle stress, relate to others and make healthy choices. <br>Just like our physical health, it is
+      important to all people at any age group.</p>
+        <a class=" button1 edubutton" role="button"><strong class="textbtn">Mental Health</strong></a>
+        <a class=" button2 companybutton" role="button"><strong class="textbtn">Wellness</strong></a>
+      </div>
+      <div class="secondside col-md-7"><img id="companyimg" src="images/Za_Nas/mentalhealth1.jpg" alt="" width="100%"
+          height="500px"></div>
+  </div>
+
+  <div id="section22">
+      <h1 id="zanas"><strong>How To Get Mental Health Help</strong></h1>
+  </div>
+  <div class="cards" id="scrooldown3">
+      <div class="cards3">
+      </div>
+      <div class="cards2"></div>
+
+  </div>
+
+  <div class="row edu col-md-12" id="scrooldown4">
+      <div class="firstside col-md-5">
+        <h1><strong style="font-size: 40px; color: black;">Learn more about other<br>mental health issues</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Learn about the types of mental health issues and illnesses.</p>
+        <a href="" id="learnmorefav" class="eventspace checkprostor1" role="button" onclick="myFunctionFav()"><strong class="textbtn"><i
+              class="fa fa-arrow-right"></i>LEARN MORE</strong></a>
+      </div>
+      <div class="secondside col-md-7"><img src="images/Za_Nas/tolookfor.jpg" alt="" width="100%" height="500px">
+      </div>
+    </div>
+  </div>
+
+  <div class="row beforeftr frontpage" id="scrooldown5">
+    <h1 style="color: black; font-size: 50px;"><strong>Try our new premium app</strong></h1>
+    <h3 class="ptekts" style="color: black;"><strong>Make an account and try our new premium app to see your statistics based on your daily experience.</strong></h3>
+    <a href="#akademii" class="spacebtn checkprostor1" role="button" id="spacebtn" onclick="myFunctionFav()"><strong class="textbtn"><i
+          class="fa fa-arrow-right"></i>LEARN MORE</strong></a>
+  </div>
+
+  <div class="container akademii">
+
+    <h1 class="register-title">Welcome</h1>
+  <form class="register">
+    <div class="register-switch">
+      <input type="radio" name="sex" value="F" id="sex_f" class="register-switch-input" checked>
+      <label for="sex_f" class="register-switch-label">Female</label>
+      <input type="radio" name="sex" value="M" id="sex_m" class="register-switch-input">
+      <label for="sex_m" class="register-switch-label">Male</label>
+    </div>
+    <input type="text" id="usernamesignup" class="register-input usernamesignup" placeholder="Username">
+    <input type="password" id="passwordsignup" class="register-input passwordsignup" placeholder="Password">
+    <input type="button" value="Sign Up" class="register-button" onclick="signup()">
+    <p id="result1"></p> 
+
+    <input type="text" id="Usernamelog" class="register-input usernamelogin" placeholder="Username">
+    <input type="password" id="Passwordlog" class="register-input passwordlogin" placeholder="Password">
+    <input type="button" value="Log In" class="register-button" onclick="login()">
+    <p id="result"></p>     
+  </form>
+  </div>
+
+  <div class="container prostorzanastani">
+
+    <div class="row edu eduprostorzanastani col-md-12">
+      <div class="firstsideakademii col-md-4">
+        <h1><strong style="font-size: 50px; color: black;">Mental illness</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Mental illness is a general term for a group 
+        of illnesses that may impact on a person's thoughts, perceptions, feelings and behaviours.
+        <br><br> People can experience different types of mental health problems. These problems can affect your thinking, mood, and behavior.<br> <br> Want to learn more about other types of 
+          mental health conditions? Visit the “Mental Health and Behavior” section on MedlinePlus.</p>
+        <a href="https://www.psychiatry.org/patients-families/what-is-mental-illness" class="eventspace bukirajne" role="button"><strong class="textbtn"><i
+              class="glyphicon glyphicon-plus"></i>LEARN MORE</strong></a>
+      </div>
+      <div class="secondsidenastani col-md-8"><img src="images/Za_Nas/tolookfor3.png" alt="" width="100%"
+          height="500px"></div>
+    </div>
+
+    <div class="row edu eduprostorzanastani col-md-12">
+      <div class="firstsideakademii col-md-3">
+        <h1><strong style="font-size: 40px; color: black;">Types of mental health issues and illnesses</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">If you've been diagnosed with a mental health problem
+         you might be looking for information on your diagnosis, treatment options and where to go for support.
+          Our information pages will help you learn more.</p>
+
+      </div>
+      <div class="secondsidenastani col-md-9">
+        <div class="col-md-4">
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/anxiety.jpg" width="100%" alt="">
+            <h4><strong>Anxiety disorders</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/bipolar.png" width="100%" alt="">
+            <h4><strong>Bipolar affective disorder</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/depression.png" width="100%" alt="">
+            <h4><strong>Depression</strong></h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/Paranoia.jpg" width="100%" alt="">
+            <h4><strong>Paranoia</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/psych.jpg" width="100%" alt="">
+            <h4><strong>Psychosis</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/schizophrenia.jpg" width="100%" alt="">
+            <h4><strong>Schizophrenia</strong></h4>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/eating.png" width="100%" alt="">
+            <h4><strong>Eating disorders</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/ptsd.png" width="100%" alt="">
+            <h4><strong>Post-traumatic stress disorder</strong></h4>
+          </div>
+          <div class="hehe"><img id="imgkitchen" src="images/Renderi/anger.jpg" width="100%" alt="">
+            <h4><strong>Anger</strong></h4>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="row edu col-md-12">
+      <div class="row secondside slik col-md-8">
+        <div class="half col-md-6">
+          <img src="images/help2.png" alt="" width="408px">
+        </div>
+        <div class="half col-md-6">
+          <img src="images/help4.png" alt="" width="430px" height="408px">
+        </div>
+      </div>
+
+      <div class="firstside col-md-4">
+        <h1><strong style="font-size: 50px; color: black;">Reach out to a Friend</strong></h1>
+        <p class="ptekts" style="text-align: left; font-size: 16px;">Asking for help promotes a healthy
+        mental well-being;joining support groups, talking to counselors, and strengthening ties with
+      family and friends can help prevent mental disorders.</p>
+
+      </div>
+    </div>
+  </div>
+
+<!-- 
+  <div class="container spaceblog">
+    <div class="col-md-12">
+      <div class="col-md-8">
+        
+
+
+      </div>
+      <div class="col-md-4">
+
+
+      </div>
+    </div>
+  </div> -->
+
+
+  <div class="container nastani">
+
+    <div style="margin-left: 150px;" class="row mentalhealthcheck1 edu eduprostorzanastani col-md-12">
+      <div class="starss firstsideakademii col-md-4">
+        <h1 id="tellus"><strong style="font-size: 30px; color: black;"> <span style="display: flex;
+          justify-content: center;">Tell us how u feel</span><span style="display: flex;
+          justify-content: center;">today</span></strong></h1>
+        <div class="container d-flex justify-content-center">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="stars">
+                      <form action=""><input class="star star-6" id="star-6" type="radio" name="star" /> <label class="star star-6" for="star-6"></label> <input class="star star-5" id="star-5" type="radio" name="star" /> <label class="star star-5" for="star-5"></label> <input class="star star-4" id="star-4" type="radio" name="star" /> <label class="star star-4" for="star-4"></label> <input class="star star-3" id="star-3" type="radio" name="star" /> <label class="star star-3" for="star-3"></label> <input class="star star-2" id="star-2" type="radio" name="star" /> <label class="star star-2" for="star-2"></label> <input class="star star-1" id="star-1" type="radio" name="star" /> <label class="star star-1" for="star-1"></label> </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      </div>
+      <div class="secondsidenastani col-md-5"><img src="images/Za_Nas/checkin.jpg" alt="" width="100%"
+          height="500px"></div>
+    </div>
+
+
+
+    <div class="container nastani">
+      <div class="row edu eduprostorzanastani col-md-12">
+        
+      </div>
+    </div>
+
+
+
+      <!--- Master Container - END-->
+      <div class="container nastani">
+        <div class="row edu eduprostorzanastani col-md-12">
+          <div class="firstsideakademii col-md-6">
+      
+  <!-- title -->
+  <h1>Daily Routine</h1>
+  <!-- task 1 -->
+  <input id='label-1' class="checkbox-label" type='checkbox'/>
+  <label for='label-1' class="labela">
+    <h2 id="h2id">Practice some mindfulness
+      <span>And try to be present with what you are doing</span>
+    </h2>   
+  </label>
+  <!-- task 2 -->
+  <input id='label-2' class="checkbox-label" type='checkbox'/>
+  <label for='label-2' class="labela">
+    <h2 id="h2id">Progressive muscle
+      <span>relaxation can help to reduce stress&amp;&amp;anxiety</span>
+    </h2>   
+  </label>
+  <!-- task 3 -->
+  <input id='label-3' class="checkbox-label" type='checkbox'/>
+  <label for='label-3' class="labela">
+    <h2 id="h2id">Deep breathing 
+      <span>is great for reducing physiological arousal</span>
+    </h2>   
+  </label>
+  <!-- task 4 -->
+  <input id='label-4' class="checkbox-label" type='checkbox'/>
+  <label for='label-4' class="labela">
+    <h2 id="h2id">If you are feeling low
+      <span>or anxious then dont be afraid to talk to someone</span>
+    </h2>   
+  </label>
+  <!-- task 5 -->
+  <input id='label-5' class="checkbox-label" type='checkbox'/>
+  <label for='label-5' class="labela">
+    <h2 id="h2id">Look after you
+      <span>and your physical self. Eat a balanced diet, take breaks</span>
+    </h2>   
+  </label>
+</div>
+<div class="firstsideakademii col-md-6">
+  <div class="wrapper">
+    <header>Write down good things you have achieved today</header>
+    <div class="inputField">
+      <input type="text" placeholder="Add your new todo">
+      <button><i class="fas fa-plus plusicon"></i></button>
+    </div>
+    <ul class="todoList">
+      <!-- data are comes from local storage -->
+    </ul>
+    
+    <div class="footer">
+      
+      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+      <button id="clearAll">Clear All</button>
+    </div>
+  </div>
+</div>
+          </div>
+          <div class="container nastani">
+            <div class="row edu eduprostorzanastani col-md-12">
+              
+              <input type="text" id="item_name" placeholder="Name of task..."/> 
+              <input type="number" id="item_value" placeholder="Hours spent..." />
+              <input type="button" value="Submit" id="click_me" />
+          <div id="piechart_3d" style="width: 900px; height: 500px;"></div>
+          <button type="button" class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal" id="btn-modal-stats">Check your statistics for the Day</button>
+
+          <!-- Modal -->
+          <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+          
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Your Statistics for the Day</h4>
+                </div>
+                <div class="modal-body">
+                  <p id="stat-text"></p>
+                  <div id="image-result"></div>
+                  <div class="alert alert-info" role="alert" id="stat-text2">
+                    <h4>Tips to improve your mental well-being.</h4><br>
+                    Keep Active, Eat Well, Talk About Your feelings <br>
+                    Dont forget to take a break if u need!
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button"class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+  </div>  
+
+
+  <div class="row linkscolor">
+    <div class="almostfooter col-md-12">
+      <div class="first col-md-3">
+        
+        <h3>Contact us</h3>
+
+
+        <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="mentalhealth@mhealth.com">
+          Email:
+        </button>
+        <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="+38442 522 423">
+          Number:
+        </button>
+      </div>
+      <div class="second col-md-3">
+        <h3>Social networks</h3>
+        <i class="fa fa-facebook-official" style="font-size:48px;color:rgb(59, 89, 152); border-radius: 100%;"></i>
+        <i class="fa fa-linkedin-square" style="font-size:48px;color:rgb(14, 118, 168)"></i>
+        <i class="fa fa-instagram" style="font-size:48px;color:rgb(193, 53, 132)"></i>
+      </div>
+      <div class="logofoot col-md-5">
+        <a href="#" id="logoend"><img class="imglogo" src="mh.jpg" alt="" height="80px" /></a>
+      </div>
+    </div>
+  </div>
+
+
+
+<script>
+  
+  function myFunctionFav() { 
+    document.getElementById('spacebtn').href
+        ="#akademii";
+        $("html").animate({ scrollTop: 0 }, "fast");
+        return false;
+
+}
+  function myFunctionFav() { 
+    document.getElementById('learnmorefav').href
+        ="#prostorzanastani";
+        $("html").animate({ scrollTop: 0 }, "fast");
+        return false;
+
+}
+    function signup() {
+      console.log("sign up");
+        if(typeof(Storage)!= "undefined") {
+            var username = document.getElementById("usernamesignup").value;
+            var password = document.getElementById("passwordsignup").value;
+            if(username!="" && password!="") {
+                localStorage.setItem("username", username);
+                localStorage.setItem("password", password);
+                document.getElementById("result1").innerHTML = "You have successfully signed up";
+            } else {
+                alert("Please enter a valid username and password.")
+            }
+        } else {
+            alert("No support.")
+        }
+    }
+    function login() {
+      console.log("login");
+        if(typeof(Storage)!= "undefined") {
+            var username = localStorage.getItem("username");
+            var password = localStorage.getItem("password");
+            var usernameInput = document.getElementById("Usernamelog").value;
+            var passwordInput = document.getElementById("Passwordlog").value;
+            if(usernameInput!="" && passwordInput!="") {
+                if(usernameInput == username && passwordInput == password) {
+                    document.getElementById("result").innerHTML = "Logged in!";
+                    return window.location.href='#nastani';
+                    loggedIn = true;
+                } else {
+                    alert("username invalid");
+                }
+            } else {
+                alert("Please enter a valid username and password.")
+            }
+        } else {
+            alert("No support.")
+        }
+    } 
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
